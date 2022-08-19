@@ -3,3 +3,57 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body {
+    font-family: Arial, Helvetica, sans-serif
+}
+
+main{
+    font-size:0px;
+}
+
+.header {
+    display: flex;
+    text-align: center;
+    background: url('../img/header.png') no-repeat center center;
+    background-size: cover;
+    min-height: 50vh;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column wrap; 
+    opacity: 0.8;
+}
+
+.h1-for-header, .p-for-header, .a-for-header{
+    color:white;
+    line-height: 1.5;
+    font-size:20px;
+    margin-top: 30px;
+    
+}
+
+
+.h1-for-header {
+    font-size:38px;
+    font-weight: bold;
+}
+
+.p-for-header {  
+    padding:0 20%;
+}
+
+.a-for-header, 
+.a-for-header:hover {
+    border: 1px solid #666;    
+    padding: 22px 36px;
+    text-decoration: none;
+}
+
+.a-for-header {
+    background-color: #333;
+}
+
+.a-for-header:hover{
+    background-color: white;
+    color:#666;
+}
