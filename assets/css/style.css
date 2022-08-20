@@ -60,7 +60,7 @@ body {
 .article-dev{
     padding:30px 0 40px 0;
 }
-.h1-dev-info{
+.h2-dev-info{
     font-size: 26px;
     text-align: center;
     font-weight: bold;
@@ -95,7 +95,7 @@ body {
     color:black;
     }
 
-.h1-for-card {
+.h2-for-card {
     font-weight: bold;
     font-size: 20px;
     margin-top:60px;   
@@ -115,7 +115,7 @@ body {
     display: flex;
 }
 
-.h1-contact-about, .p-contact-about {
+.h2-contact-about, .p-contact-about {
     text-align: center;
     line-height: 1.5;
     margin: 40px;
@@ -134,7 +134,7 @@ body {
     background-color: #2690d4;
 }
 
-.h1-contact-about {
+.h2-contact-about {
     font-weight: bold;
     font-size:26px;
 }
