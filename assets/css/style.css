@@ -70,20 +70,81 @@ main{
     font-weight: bold;
 }
 
+.p-dev-info, .p-handle{
+    font-size: 18px;      
+    margin: 2% 25%;
+    text-align: center;
+    line-height: 1.5;
+
+}
+
 .p-dev-info{
-    font-size: 18px;    
-    column-count: 2;   
-    margin: 1% 25%;
+    column-count: 2; 
+    column-gap: 30px;
 }
 
 .card-holder {
     display: flex;
-    justify-content: center;    
+    justify-content: center; 
 }
 
 .card {
-    display: flex;
-    flex-flow: column;
+    display: flex;    
+    flex-flow: column; 
+    justify-content: space-between;   
     background-color: white;
-    width: 300px;
+    width: 16%;
+    margin: 40px 10px;
+    text-align: center;
+    min-height: 530px;
+    color:black;
+}
+
+.h1-for-card {   
+   font-weight: bold;
+   font-size: 20px;
+   margin-top:60px;   
+}
+
+.p-for-card{
+    font-size: 19px;
+    margin:20px 20px auto;
+    line-height: 1.5;
+}
+
+.article-handle{
+    padding:70px 0 40px 0;
+}
+
+.contact-about-holder {
+    display: flex;
+}
+
+.h1-contact-about, .p-contact-about {
+    text-align: center;
+    line-height: 1.5;
+    margin: 40px;
+    color:white;
+}
+
+.black-block, .blue-block {
+    width: 50%;
+}
+
+.black-block{
+    background-color: #333;
+}
+
+.blue-block{
+    background-color: #2690d4;
+}
+
+.h1-contact-about {
+    font-weight: bold;
+    font-size:28px;
+}
+
+.p-contact-about{
+    font-size: 18px;
+    font-weight: 500;
 }
