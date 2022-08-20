@@ -100,10 +100,10 @@ main{
     color:black;
 }
 
-.h1-for-card {   
-   font-weight: bold;
-   font-size: 20px;
-   margin-top:60px;   
+.h1-for-card {
+    font-weight: bold;
+    font-size: 20px;
+    margin-top:60px;   
 }
 
 .p-for-card{
@@ -141,10 +141,28 @@ main{
 
 .h1-contact-about {
     font-weight: bold;
-    font-size:28px;
+    font-size:26px;
 }
 
 .p-contact-about{
     font-size: 18px;
     font-weight: 500;
+}
+
+.footer{
+    display: flex;
+    background-color: black;
+}
+
+.p-footer {
+    width:50%;
+    text-align: center;
+    color:white;
+    margin:40px;
+    font-size:18px;
+}
+
+.a-for-footer {
+    color:#2690d4;
+    text-decoration: none;
 }
