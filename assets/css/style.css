@@ -7,11 +7,11 @@
 * {
     margin:0;
     padding: 0;
-    box-sizing: border-box;
 }
 
 body {
     font-family: PlexSans;
+    box-sizing: border-box;
 }
 
 .header {
@@ -19,28 +19,28 @@ body {
     text-align: center;
     background: url('../img/header.png') no-repeat center center;
     background-size: cover;
-    min-height: 54vh;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    flex-flow: column nowrap; 
+    flex-flow: column wrap; 
     opacity: 0.9;
+    min-height: 55vh;
+    padding: 20px;
 }
 
 .h1-for-header, .p-for-header, .a-for-header{
     color:white;
     line-height: 1.5;
-    font-size:20px;     
+    font-size:20px;
+    padding: 20px;     
 }
 
 
 .h1-for-header {
     font-size:38px;
     font-weight: bold;
-    margin-top: 12vh;
 }
 
-.p-for-header {  
-    padding:1% 20%;
+.p-for-header {
     margin-bottom: 1vh;    
 }
 
@@ -48,19 +48,18 @@ body {
 .a-for-header:hover {
     border: 1px solid #666;    
     padding: 15px 30px;
-    text-decoration: none;
-    margin-bottom: auto;
-        
+    text-decoration: none;        
 }
 
 .a-for-header, .card-holder {
     background-color: #333;    
 }
 
-.a-for-header:hover{
+.a-for-header:hover,
+.a-for-header:focus{
     background-color: white;
     color:#666;   
-    
+
 }
 
 .article-dev{
@@ -85,34 +84,42 @@ body {
 }
 
 .card-holder {
-    display: flex;
     justify-content: center;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+
 }
 
-.card {
-    display: flex;    
-    flex-flow: column nowrap; 
-    justify-content: space-between;   
+
+.img-for-card {
+    width: 100%;
+}
+
+.card {      
     background-color: white;
-    margin: 40px 10px;
-    min-width: 250px;
-    max-width: 300px;
     text-align: center;
-    min-height: 530px;
     color:black;
-    overflow-y: auto;
+    margin:25px 10px;
+    max-width: 300px;
     }
+
+
+.div-for-card {
+    padding: 50px 30px;
+}
+
 
 .h2-for-card {
     font-weight: bold;
     font-size: 20px;
-    margin-top:60px;   
 }
 
 .p-for-card{
+    margin-top: 30px;
     font-size: 19px;
-    margin:20px 20px auto;
     line-height: 1.5;
+    font-weight: 500;
 }
 
 .article-handle{
