@@ -41,14 +41,15 @@ body {
 }
 
 .p-for-header {
-    margin-bottom: 1vh;    
+    margin: 0 15%;    
 }
 
 .a-for-header, 
 .a-for-header:hover {
     border: 1px solid #666;    
     padding: 15px 30px;
-    text-decoration: none;        
+    text-decoration: none;
+    margin-bottom: 10px;        
 }
 
 .a-for-header, .card-holder {
